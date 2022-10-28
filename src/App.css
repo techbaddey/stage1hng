@@ -22,6 +22,16 @@
   height: 100px;
 }
 
+#back {
+  width: 25px;
+  position: absolute;
+  right: 50px;
+  top: 30px;
+}
+#menu {
+  display: none;
+}
+
 #twitter {
   font-weight: bold;
   margin-top: 18px;
@@ -82,6 +92,18 @@ a {
     flex-direction: row;
     justify-content: space-between;
     padding: 0px 90px;
+  }
+
+  #back{
+    display: none;
+  }
+
+  #menu {
+    display: flex;
+    width: 25px;
+    position: absolute;
+    right: 150px;
+    top: 50px;
   }
 }
 

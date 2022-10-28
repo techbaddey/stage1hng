@@ -4,11 +4,15 @@ import slack from "./slack.png";
 import github from "./github.png";
 import zuri from "./zuri.png";
 import ifg from "./IFG-Logo.png";
+import back from "./back.png";
+import menu from "./menu.png";
 
 function App() {
   return (
     <div className="Container">
       <div className="Main">
+        <img id="back" src={back} />
+        <img id="menu" src={menu} />
         <div className="Profile">
           <img id="profile__img" src={profileImage} />
           <p id="twitter">Teqbaddie</p>
