@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.Main {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#profile__img {
+  margin-top: 30px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+#twitter {
+  font-weight: bold;
+  margin-top: 18px;
+}
+
+.Mainlinks {
+  margin-top: 40px;
+}
+
+.Links {
+  width: 90vw;
+  padding: 17px 0px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgrey;
+  margin-top: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.icons {
+  margin: 35px;
+}
+
+.icon {
+  width: 27px;
+  margin: 12px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.image {
+  width: 150px;
+}
+
+.text {
+  color: darkgrey;
+}
+
+@media only screen and (min-width: 1024px) {
+  .Links {
+    width: 80vw;
+  }
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 90px;
+  }
+}
+
