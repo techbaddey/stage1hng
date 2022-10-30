@@ -3,7 +3,7 @@ import profileImage from "./oyinkansola.jfif";
 import slack from "./slack.png";
 import github from "./github.png";
 import zuri from "./zuri.png";
-import ifg from "./IFG-Logo.png";
+import iforg from "./IFG-Logo.png";
 import back from "./back.png";
 import menu from "./menu.png";
 
@@ -88,7 +88,7 @@ function App() {
       <div className="footer">
         <img className="image" src={zuri} />
         <p className="text">HNG Internship 9 Frontend Task</p>
-        <img className="image" src={ifg} />
+        <img className="image" src={iforg} />
       </div>
     </div>
   );
